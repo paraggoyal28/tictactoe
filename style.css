@@ -1,0 +1,69 @@
+td {
+    border: 2px solid #333;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+       
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+#lost {
+    
+    display: none;
+}
+
+#win {
+    display: none;
+}
+
+#tie {
+    display: none;
+}
+
+#alert {
+    position:absolute;
+}
+
+button {
+    width: 105px;
+    position: absolute;
+    top: 550px;
+}
+
+h1 {
+    position: absolute;
+}

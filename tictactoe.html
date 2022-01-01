@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <h1 class="display-4 text-center text text-info">Tic Tac Toe</h1>
+
+
+    <div class="alert" id="alert">
+        <div class="alert alert-success" id="win">Congratulations! You Won.</div>
+        <div class="alert alert-danger" id="lost">Sorry! You lost.</div>
+        <div class="alert alert-warning" id="tie">It's a Tie!</div>
+    </div>
+
+
+    <table>
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+    <button onClick="startGame()" class="btn btn-primary">Replay</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
